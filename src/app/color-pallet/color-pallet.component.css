@@ -1,0 +1,9 @@
+
+.masonry-item { width: 200px;
+    height:200px;
+}
+
+.name{
+    display: table;
+    margin: 50% auto;
+}

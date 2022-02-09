@@ -1,0 +1,11 @@
+<h4>Please Enter Your color Name</h4>
+
+<input type="text" [(ngModel)]="name" (ngModelChange)="ChangeFunction($event)">
+
+<ngx-masonry #Content>
+
+    <div ngxMasonryItem class="masonry-item" *ngFor="let item of masonryItems" style="background-color :{{item.hex}}">
+        <span class="name">{{item.name}} {{item.hex}}</span>
+    </div>
+
+</ngx-masonry>
