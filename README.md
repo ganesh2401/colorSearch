@@ -1,5 +1,20 @@
 # ColorPallet
 
+APi Used for color searching https://unpkg.com/color-name-list@8.38.0/dist/colornames.json
+
+Package use below
+NgxMasonry for masonary grid layout
+BrowserAnimationsModule For animation purpose
+
+Note:
+Npm Install after project download
+
+if your app component html updated
+please clear that page and replace it with this tag  <app-color-pallet></app-color-pallet>
+
+and after that run ng serve -o to start project
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
 
 ## Development server
